@@ -5,19 +5,22 @@ EA-P1
 
 Praktikum 1 Coffee Server
 
-Build using Netbeans
+#Build
+Create new Project from sources and build using Netbeans
 
-#1. Start RMI
+#Run it
+
+##1. Start RMI
 
     cd NetBeansProjects/P1/build/classes 
     rmic coffee.CoffeeCashRegister
     rmirmiregistry
 
-#2. Start Server
+##2. Start Server
     cd NetBeansProjects/P1/build/classes
     java -Djava.security.policy=coffee/wideopen.policy coffee/CoffeeCashRegister
   
-#3. Start Client
+##3. Start Client
     cd NetBeansProjects/P1/build/classes
     java -Djava.security.policy=wideopen.policy coffee/Gui
   
