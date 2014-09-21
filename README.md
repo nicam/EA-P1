@@ -9,10 +9,10 @@ Build using Netbeans
 
 
 #Start Server
-  cd NetBeansProjects/P1/build/classes
-  java -Djava.security.policy=coffee/wideopen.policy coffee/CoffeeCashRegister
+    cd NetBeansProjects/P1/build/classes
+    java -Djava.security.policy=coffee/wideopen.policy coffee/CoffeeCashRegister
   
 #Start Client
-  cd NetBeansProjects/P1/build/classes
-  java -Djava.security.policy=wideopen.policy coffee/Gui
+    cd NetBeansProjects/P1/build/classes
+    java -Djava.security.policy=wideopen.policy coffee/Gui
   
