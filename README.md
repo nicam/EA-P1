@@ -7,12 +7,17 @@ Praktikum 1 Coffee Server
 
 Build using Netbeans
 
+#1. Start RMI
 
-#Start Server
+    cd NetBeansProjects/P1/build/classes 
+    rmic coffee.CoffeeCashRegister
+    rmirmiregistry
+
+#2. Start Server
     cd NetBeansProjects/P1/build/classes
     java -Djava.security.policy=coffee/wideopen.policy coffee/CoffeeCashRegister
   
-#Start Client
+#3. Start Client
     cd NetBeansProjects/P1/build/classes
     java -Djava.security.policy=wideopen.policy coffee/Gui
   
